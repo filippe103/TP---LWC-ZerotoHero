@@ -1,0 +1,4 @@
+SELECT Name, Id, BillingCountry
+  FROM Account
+  WHERE BillingCountry = 'USA'
+  ORDER BY Name DESC NULLS LAST
